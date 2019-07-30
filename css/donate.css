@@ -1,0 +1,53 @@
+h1{
+  font-size: 100px;
+  color:red;
+  font-family:'Rancho'
+}
+html{
+  background-color: beige;
+
+}
+
+#text{
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+
+  margin-left: 40px;
+  color:
+
+
+}
+
+button{
+  background: #FBFAFC;
+
+color: black;
+
+border-style: outset;
+
+border-color: #FBFAFC ;
+
+height: 25px;
+
+width: 100px;
+
+font-family: 'Dosis', sans-serif;
+border-radius: 50%;
+
+
+
+text-shadow:none;
+position:absolute;
+transition: .5s ease;
+top: 75%;
+left: 75%;
+
+
+
+}
+
+#imgone{
+position: absolute;
+top: 190px
+bottom:80px
+}
