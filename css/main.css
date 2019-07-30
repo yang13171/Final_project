@@ -1,3 +1,16 @@
-html {
-  
+.font{
+  font-size: 100px;
+  color:red;
+  font-family:'Rancho'
+}
+html{
+  background-color: cyan;
+}
+h2{
+  color:red;
+  font-size: 55px;
+}
+h3{
+  color:red;
+  font-size: 35px;
 }
