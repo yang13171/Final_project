@@ -1,5 +1,13 @@
 h1{
   font-size: 36px;
-  font-family:rancho; cursive;
+  font-family: Rancho;
+  cursive;
   color: green;
+}
+html{
+  font-size: 18px;
+  font-family: Rancho;
+  cursive;
+  color: green;
+  background-color: beige;
 }
