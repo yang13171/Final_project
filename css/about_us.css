@@ -1,5 +1,5 @@
 html{
-  font-size: 18px;
+  font-size: 20px;
   font-family: Rancho;
   cursive;
   color: green;
@@ -12,7 +12,7 @@ h1{
   color: green;
 }
 h2{
-  font-size: 34px;
+  font-size: 36px;
   font-family: Rancho;
   cursive;
   color: green;
@@ -20,12 +20,14 @@ h2{
 
 
 p2{
-  font-size: 18px;
   position: absolute;
-  right: 80px;
+  right: 60px;
 }
 p3{
-  font-size: 18px;
   position: absolute;
-  left: 80px;
+  left: 70px;
+}
+#navbar{
+  position: absolute;
+  left: 10px;
 }
