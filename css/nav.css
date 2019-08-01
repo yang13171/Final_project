@@ -31,7 +31,7 @@
 .content {
   display: none;
   position: absolute;
-  background-color: transparent;
+  background-color: #EAF0EF;
   width: 200px;
   font-size: 35px;
   text-transform: uppercase;
