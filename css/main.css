@@ -1,7 +1,7 @@
 .font{
-  font-size: 100px;
+  font-size: 60px;
   color:red;
-  font-family:'Rancho'
+  font-family:'Rancho';
 }
 html{
   background-color: cyan;
