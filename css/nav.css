@@ -5,10 +5,23 @@ button {
    color: white;
    width: 75px;
    height: 45px;
+   text-align : center;
+   margin-left : 32px;
+   margin-top: 13px;
  }
 
+ h1{
+   font-size: 40px;
+  text-align : center;
+  margin-top : 13px;
+  float: right;
+  margin-right: 600px;
+}
 .drop{
   border-radius: 16px;
+}
+header {
+width: 100%;
 }
 
 .drop:hover, .drop:focus {
@@ -37,6 +50,19 @@ button {
   text-transform: uppercase;
   color: black;
   font-family: 'Dosis', sans-serif;
+
+
+
+  z-index: 1;
+}
+.show {display:block;}
+
+
+.class{
+  color: black;
+
+}
+
 
 
 
