@@ -7,15 +7,16 @@ button {
    height: 45px;
    text-align : center;
    margin-left : 32px;
-   margin-top: 13px;
+   margin-top: 30px;
  }
 
+
  h1{
-   font-size: 40px;
   text-align : center;
-  margin-top : 13px;
+  margin-top : 30px;
   float: right;
-  margin-right: 600px;
+  margin-right: 510px;
+  font-size: 60px;
 }
 .drop{
   border-radius: 16px;
@@ -50,19 +51,6 @@ width: 100%;
   text-transform: uppercase;
   color: black;
   font-family: 'Dosis', sans-serif;
-
-
-
-  z-index: 1;
-}
-.show {display:block;}
-
-
-.class{
-  color: black;
-
-}
-
 
 
 
