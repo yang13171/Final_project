@@ -30,46 +30,57 @@
           </div>
 
     </header>
-  <br><br><br><br><br><br><br>
-    <form action="/action_page.php">
+   <form action="/action_page.php">
     <center>
-      <p>Driver Name: <input type="text"></p>
-      <p>Phone Number: <input type="int"></p>
-      <p>Email: <input type="text"></p>
-      <p>Username: <input type="text"></p>
-      <p>Password: <input type="text"></p>
+      <p>Driver Name: <input type="text" name ="Driver_name" id="name"></P>
+      <p>Phone Number: <input type="int" name ="Phone_number" id = "number"></p>
+      <p>Email: <input type="text" name = "Email" id="email"></p>
+      <p>Username: <input type="text" name = "Username" id="username"></p>
+      <p>Password: <input type="text" name = "Password" id="Password"></p>
     </center>
     <center>
-      <input type=button onClick="parent.location='shelters.html'" value='Submit'>
+      <button type = 'submit' name='submit' id ="bttn" onclick="signin.html"></button>
+
+      <button type="button" name="button" id= "btn" >Submit</button>
+
     </center>
+  </form>
+  <script>
+      var drivers = [];
+
+      const addinfo = (ev)=>{
+          ev.preventDefault();  //to stop the form submitting
+          var info = {
+              id: Date.now(),
+              username: document.getElementById('username').value,
+              Password: document.getElementById('Password').value,
+              name: document.getElementById('name').value,
+
+              Phonenumber: document.getElementById('number').value,
+              Email: document.getElementById('email').value,
+
+          }
+          drivers.push(info);
+          document.forms[0].reset();
+
+          localStorage.setItem(name, JSON.stringify(drivers) );//
+          console.log(localStorage.getItem(name));
+      }
+      document.addEventListener('DOMContentLoaded', ()=>{
+          document.getElementById('btn').addEventListener('click', addinfo);
+
+      });
+
+
+  </script>
+
+
+
+
 
   </body>
 
 
-</html>
-
-
-
-    <form action="/action_page.php">
-    <center>
-      <p>Driver Name: <input type="text"></P>
-      <p>Phone Number: <input type="int"></p>
-      <p>Email: <input type="text"></p>
-      <p>Username: <input type="text"></p>
-      <p>Password: <input type="text"></p>
-    </center>
-    <center>
-      <input type=button onClick="parent.location='shelters.html'" value='Submit'>
-    </center>
-
-
-
-
-
-  </body>
-
-
-
 
 
 
@@ -81,3 +92,4 @@
 
 
 </html>
+
