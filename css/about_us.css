@@ -18,14 +18,18 @@ h2{
   color: green;
 }
 
+.column{
+  float: left;
+  width: 50%;
+  padding 5px;
 
-p2{
-  position: absolute;
-  right: 60px;
 }
-p3{
-  position: absolute;
-  left: 70px;
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 }
 #navbar{
   position: absolute;
