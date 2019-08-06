@@ -1,5 +1,5 @@
 button {
-   border-color: black;
+   border-color: rgba(255, 255, 255, 0.8) ;
    background-color: transparent;
    font-size: 25px;
    color: white;
@@ -71,4 +71,44 @@ width: 100%;
   color: #ea3b50;
   transform: translate(120px);
 
+}
+
+.dropdown{
+
+}
+
+.dropdown:hover .f {
+  background-color: gray;
+  background: rgba(255, 255, 255, 0.8);
+
+
+}
+
+  .f {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.8);
+}
+.dropdown:hover .f {
+  display: block;
+}
+
+.d{
+   outline: none;
+   width: 100px;
+   height: 0px;
+   color: black;
+   font-family: 'Dosis', sans-serif;
+   margin-left: auto;
+   font-size: 25px;
+
+
+
+}
+.fa fa-caret-down{
+  color:white;
 }
