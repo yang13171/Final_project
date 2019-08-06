@@ -1,7 +1,11 @@
-.font{
+#font{
   font-size: 100px;
   color:white;
-  font-family:'Rancho';
+  font-family: "Rancho";
+}
+p{
+  font-family: 'Dosis', sans-serif;
+
 }
 html{
   background-color: grey;
@@ -28,4 +32,11 @@ html{
 .smalltext{
     color:white;
     font-size: 25px;
+}
+
+h1{
+  font-size: 100px;
+  color:white;
+  font-family: "Rancho";
+
 }
