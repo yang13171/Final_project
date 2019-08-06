@@ -1,17 +1,17 @@
 .font{
   font-size: 100px;
-  color:red;
+  color:white;
   font-family:'Rancho';
 }
 html{
-  background-color: cyan;
+  background-color: grey;
 }
 .titles{
-  color:red;
+  color:white;
   font-size: 55px;
 }
 .text{
-  color:red;
+  color:white;
   font-size: 35px;
 }
 .centered {
@@ -19,4 +19,13 @@ html{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.smalltext{
+    color:white;
+    font-size: 25px;
 }
