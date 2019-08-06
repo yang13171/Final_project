@@ -11,7 +11,7 @@ button {
  }
 
 
- 
+
 .drop{
   border-radius: 16px;
 }
@@ -25,6 +25,7 @@ width: 100%;
   border-radius: 16px;
   color: #F08080;
   box-shadow: 0 0;
+
 }
 .navbar {
   position: relative;
@@ -39,12 +40,14 @@ width: 100%;
 .content {
   display: none;
   position: absolute;
-  background-color: #EAF0EF;
-  width: 200px;
-  font-size: 30px;
+  background-color: black;
+  width: 300px;
+  height: 700px;
+  font-size: 24px;
   text-transform: uppercase;
-  color: black;
+  text-decoration-color: black;
   font-family: 'Dosis', sans-serif;
+  background: rgba(255, 255, 255, 0.8);
 
 
 
@@ -55,5 +58,17 @@ width: 100%;
 
 .class{
   color: black;
+
+}
+
+
+ a{
+  color: black;
+
+}
+
+ a:hover{
+  color: #ea3b50;
+  transform: translate(120px);
 
 }
